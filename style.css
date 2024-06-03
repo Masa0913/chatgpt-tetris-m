@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    position: relative;
+    width: 90vw; /* Use viewport width for responsive design */
+    max-width: 400px; /* Set a maximum width for larger screens */
+    height: 90vh; /* Use viewport height for responsive design */
+    max-height: 800px; /* Set a maximum height for larger screens */
+    border: 2px solid #fff;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+}
+
+#score {
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
